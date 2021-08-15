@@ -14,8 +14,12 @@ class CategoryController extends Controller
      */
     public function index()
     {
+<<<<<<< HEAD
         $categories = Category::paginate();
         return view('categories.index', ['categories' => $categories]);
+=======
+        //
+>>>>>>> origin/master
     }
 
     /**
@@ -31,7 +35,11 @@ class CategoryController extends Controller
     /**
      * Store a newly created resource in storage.
      *
+<<<<<<< HEAD
      * @param \Illuminate\Http\Request $request
+=======
+     * @param  \Illuminate\Http\Request  $request
+>>>>>>> origin/master
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -42,7 +50,11 @@ class CategoryController extends Controller
     /**
      * Display the specified resource.
      *
+<<<<<<< HEAD
      * @param \App\Models\Category $category
+=======
+     * @param  \App\Models\Category  $category
+>>>>>>> origin/master
      * @return \Illuminate\Http\Response
      */
     public function show(Category $category)
@@ -53,7 +65,11 @@ class CategoryController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
+<<<<<<< HEAD
      * @param \App\Models\Category $category
+=======
+     * @param  \App\Models\Category  $category
+>>>>>>> origin/master
      * @return \Illuminate\Http\Response
      */
     public function edit(Category $category)
@@ -64,8 +80,13 @@ class CategoryController extends Controller
     /**
      * Update the specified resource in storage.
      *
+<<<<<<< HEAD
      * @param \Illuminate\Http\Request $request
      * @param \App\Models\Category $category
+=======
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\Category  $category
+>>>>>>> origin/master
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Category $category)
@@ -76,7 +97,11 @@ class CategoryController extends Controller
     /**
      * Remove the specified resource from storage.
      *
+<<<<<<< HEAD
      * @param \App\Models\Category $category
+=======
+     * @param  \App\Models\Category  $category
+>>>>>>> origin/master
      * @return \Illuminate\Http\Response
      */
     public function destroy(Category $category)
