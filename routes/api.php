@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/test', function (){
-    return 'ok';
+    return 'Change This Test';
 });
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
